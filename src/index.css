@@ -22,8 +22,8 @@ body {
     padding: 50px;
     border-radius: 16px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    width: 500px;
-    height: 640px;
+    max-width: 500px;
+    max-height: 680px;
 }
 
 .c-player > h4 {
