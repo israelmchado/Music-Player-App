@@ -47,7 +47,7 @@ function App() {
         return currentSongIndex + 1
       }
     })
-  }, [currentSongIndex])
+  }, [currentSongIndex, setCurrentSongIndex, songs.length])
 
   return (
     <div className="App">
